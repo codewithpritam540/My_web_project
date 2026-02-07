@@ -8,8 +8,8 @@ import { FloatingBookButton, ExperienceCTA } from './components/ExperienceCTA';
 import { Footer } from './components/Footer';
 import { DishModal } from './components/DishModal';
 import { AdminDashboard } from './components/admin/AdminDashboard';
-import { LoginPage } from './components/auth/LoginPage';
-import { ProtectedRoute } from './components/auth/ProtectedRoute';
+import { LoginPage } from './components/LoginPage';
+import { ProtectedRoute } from './components/ProtectedRoute';
 import type { Dish } from './data/mockData';
 
 // Main Landing Page with 3D Effects
