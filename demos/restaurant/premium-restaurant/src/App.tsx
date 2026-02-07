@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Navigation } from '@/components/Navigation';
-import { Hero3D } from '@/components/Hero3D';
-import { MenuGallery3D } from '@/components/MenuGallery3D';
-import { Philosophy } from '@/components/Philosophy';
-import { FloatingBookButton, ExperienceCTA } from '@/components/ExperienceCTA';
-import { Footer } from '@/components/Footer';
-import { DishModal } from '@/components/DishModal';
-import { AdminDashboard } from '@/components/admin/AdminDashboard';
-import { LoginPage } from '@/components/auth/LoginPage';
-import { ProtectedRoute } from '@/components/auth/ProtectedRoute';
-import type { Dish } from '@/data/mockData';
+import { Navigation } from './components/Navigation';
+import { Hero3D } from './components/Hero3D';
+import { MenuGallery3D } from './components/MenuGallery3D';
+import { Philosophy } from './components/Philosophy';
+import { FloatingBookButton, ExperienceCTA } from './components/ExperienceCTA';
+import { Footer } from './components/Footer';
+import { DishModal } from './components/DishModal';
+import { AdminDashboard } from './components/admin/AdminDashboard';
+import { LoginPage } from './components/auth/LoginPage';
+import { ProtectedRoute } from './components/auth/ProtectedRoute';
+import type { Dish } from './data/mockData';
 
 // Main Landing Page with 3D Effects
 const LandingPage = () => {
